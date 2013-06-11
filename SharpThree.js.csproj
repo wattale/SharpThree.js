@@ -33,6 +33,7 @@
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <ItemGroup>
     <Folder Include="OpenTK\" />
+    <Folder Include="renderes\" />
   </ItemGroup>
   <ItemGroup>
     <None Include="OpenTK\OpenTK.dll" />
@@ -43,5 +44,8 @@
     </Reference>
     <Reference Include="System.Drawing" />
     <Reference Include="System.Windows.Forms" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="MainProgram.cs" />
   </ItemGroup>
 </Project>
